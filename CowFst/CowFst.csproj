@@ -4,6 +4,20 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <Description>Finite State Transducer</Description>
+    <PackageId>CowFst</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>shadowCow</Authors>
+    <Copyright>Copyright (c) shadowCow 2024</Copyright>
+    <PackageProjectUrl>https://github.com/shadowCow/cow-fst-cs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shadowCow/cow-fst-cs</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>fst</PackageTags>
+    <PackageReadmeFile>./README.md</PackageReadmeFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
